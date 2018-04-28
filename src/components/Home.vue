@@ -5,7 +5,7 @@
 
 
     <v-layout row wrap>
-      <v-flex sm12>
+      <v-flex sm9>
         <v-card class="primary pl-3 pr-3 mb-3">
           <v-card class="neutral">
             <v-card-title primary-title>
@@ -16,8 +16,16 @@
           </v-card>
         </v-card>
       </v-flex>
+      <v-flex sm2 class="ml-5">
+        <v-card class="primary pl-3 pr-3 mb-3">
+            <v-card-title primary-title>
+              <div>
+                <h3 class="headline mb-0 white--text">Estatisticas espertas</h3>
+              </div>
+            </v-card-title>
+        </v-card>
+      </v-flex>
     </v-layout>
-
 
   </v-container>
 </template>
